@@ -80,6 +80,52 @@ html, body {
     letter-spacing: -0.25vw;
 }
 
+#s-one #s-one-text-container h6 {
+    -moz-perspective: 600px;
+    perspective: 600px;
+    transform-origin: center bottom;
+    transform-style: preserve-3d;
+    /* transform: rotate3d(1, 0, 0, 60deg); */
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#s-one #s-one-text-container h1 {
+    -moz-perspective: 600px;
+    perspective: 600px;
+    transform-origin: center bottom;
+    transform-style: preserve-3d;
+    animation-name: rotate;
+    animation-duration: 1.5s;
+    /* animation-delay: 1s; */
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+#s-one #s-one-text-container h1:nth-child(3) {
+    -moz-perspective: 600px;
+    perspective: 600px;
+    transform-origin: center bottom;
+    transform-style: preserve-3d;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate3d(1, 0, 0, -90deg);
+        opacity: 0;
+    }
+    100% {
+        transform: rotate3d(1, 0, 0, 0deg);
+        opacity: 1;
+    }
+}
+
 /* Section 2 */
 
 #container #s-two {
