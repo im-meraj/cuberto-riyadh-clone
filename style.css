@@ -59,21 +59,25 @@ html, body {
     padding: 0 15vw;
 }
 
+#s-one #s-one-text-container {
+    padding-bottom: 10vh;
+}
+
 #s-one #s-one-text-container h6 {
     /* font-family: 'Averta CY', sans-serif; */
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: normal;
     color: #000;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
 }
 
 #s-one #s-one-text-container h1 {
     /* font-family: 'Averta CY', sans-serif; */
-    font-size: 5vw;
+    font-size: 5.2vw;
     font-weight: normal;
     color: #000;
     line-height: 1;
-    letter-spacing: 0.5px;
+    letter-spacing: -0.25vw;
 }
 
 /* Section 2 */
