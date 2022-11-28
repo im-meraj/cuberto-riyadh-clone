@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+}
+
+#container #nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 3vw;
+}
+
+#container #nav #logo {
+    width: 94px;
+}
+
+#nav #logo img {
+    width: 100%;
+    height: 100%;
+}
+
+#container #nav #menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+}
+
+#nav #menu a {
+    font-family: 'Averta CY', sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2vw;
+}
+
+#nav #menu i {
+    font-size: 1.2vw;
+}
+
+/* Section 1 */
+
+#container #s-one {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    /* background-color: pink; */
+    padding: 0 15vw;
+}
+
+#s-one #s-one-text-container h6 {
+    font-family: 'Averta CY', sans-serif;
+    font-size: 1.2vw;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 1vh;
+}
+
+#s-one #s-one-text-container h1 {
+    font-family: 'Averta CY', sans-serif;
+    font-size: 5vw;
+    font-weight: normal;
+    color: #000;
+    line-height: 1;
+    letter-spacing: 0.5px;
+}
+
+/* Section 2 */
+
+#container #s-two {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+#s-two #s-two-img-container {
+    background: url(https://cdn.cuberto.com/cb/img/riyadh/main.jpg);
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+}
+
+/* Section 3 */
+
+#container #s-three {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: pink; */
+    padding: 0 15vw;
+}
+
+#s-three #s-three-text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+#s-three-text-container #s-three-text-left {
+    width: 10%;
+    /* background-color: lightgreen; */
+}
+
+#s-three-text-container #s-three-text-right {
+    width: 70%;
+    /* background-color: lightyellow; */
+}
+
+#s-three-text-container #s-three-text-right p {
+    font-family: 'Averta CY', sans-serif;
+    font-size: 1.45vw;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.5;
+    margin-bottom: 7vh;
+}
+
+#s-three-text-container #s-three-text-right #links {
+    display: flex;
+    gap: 3vw;
+}
+
+#s-three-text-container #s-three-text-right #links a {
+    font-family: 'Averta CY', sans-serif;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+
+#s-three #s-three-text-container h6 {
+    font-family: 'Averta CY', sans-serif;
+    font-size: 1vw;
+    color: #000;
+}
+
+/* Section 4 */
+
+#container #s-four {
+    width: 100%;
+    height: 80vh;
+    /* overflow: hidden; */
+}
+
+#s-four #s-four-img-container {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    /* z-index: 2; */
+    background: url(https://cdn.cuberto.com/cb/img/riyadh/1.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+
+/* #s-four #s-four-img-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+
+/* Section 5 */
+
+#container #s-five {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    /* background-color: pink; */
+    padding: 0 15vw;
+}
+
+#s-five #s-five-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+#s-five-text-container #s-five-text-top {
+    width: 100%;
+    /* background-color: lightgreen; */
+}
+
+#s-five-text-container #s-five-text-top h2 {
+    font-family: 'Averta CY', sans-serif;
+    font-size: 4.3vw;
+    font-weight: normal;
+    color: #000;
+    line-height: 1;
+    letter-spacing: -0.25vw;
+}
+
+#s-five-text-container #s-five-text-bottom {
+    width: 60%;
+    /* background-color: lightyellow; */
+}
+
+#s-five-text-container #s-five-text-bottom p {
+    font-family: 'Averta CY', sans-serif;
+    font-size: 1.45vw;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.5;
+}
