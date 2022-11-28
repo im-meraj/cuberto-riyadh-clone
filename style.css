@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Averta Standard', sans-serif;
 }
 
 html, body {
@@ -37,7 +38,7 @@ html, body {
 }
 
 #nav #menu a {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     text-decoration: none;
     color: #000;
     font-size: 1.2vw;
@@ -59,7 +60,7 @@ html, body {
 }
 
 #s-one #s-one-text-container h6 {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     font-size: 1.2vw;
     font-weight: normal;
     color: #000;
@@ -67,7 +68,7 @@ html, body {
 }
 
 #s-one #s-one-text-container h1 {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     font-size: 5vw;
     font-weight: normal;
     color: #000;
@@ -120,7 +121,7 @@ html, body {
 }
 
 #s-three-text-container #s-three-text-right p {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     font-size: 1.45vw;
     font-weight: normal;
     color: #000;
@@ -134,7 +135,7 @@ html, body {
 }
 
 #s-three-text-container #s-three-text-right #links a {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     font-size: 1vw;
     font-weight: 600;
     color: #000;
@@ -144,7 +145,7 @@ html, body {
 }
 
 #s-three #s-three-text-container h6 {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     font-size: 1vw;
     color: #000;
 }
@@ -203,7 +204,7 @@ html, body {
 }
 
 #s-five-text-container #s-five-text-top h2 {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     font-size: 4.3vw;
     font-weight: normal;
     color: #000;
@@ -217,7 +218,7 @@ html, body {
 }
 
 #s-five-text-container #s-five-text-bottom p {
-    font-family: 'Averta CY', sans-serif;
+    /* font-family: 'Averta CY', sans-serif; */
     font-size: 1.45vw;
     font-weight: normal;
     color: #000;
